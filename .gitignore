@@ -1,5 +1,7 @@
 *.js
 !jest.config.js
+# sample-app은 TypeScript 컴파일 결과물이 아니라 직접 작성한 JS 소스코드라 예외 처리
+!sample-app/**/*.js
 *.d.ts
 node_modules
 

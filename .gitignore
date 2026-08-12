@@ -1,0 +1,29 @@
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# 실제 계정ID/VPC/서브넷 정보가 캐싱되는 로컬 조회 캐시 (public repo이므로 절대 커밋 금지)
+cdk.context.json
+
+# 실제 계정 정보가 찍힌 테스트용 스크린샷
+test-result/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
